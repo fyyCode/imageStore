@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"F2  倍攻"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+alloc(newmem,2048,"143C6A8AE)//全局基址E9 9C FC 05 FC 90 90 90 90 41 B1 01
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+
+originalcode:
+mov rsi,#3999995//伤害
+je 143C6A972//倍攻基址48 8B 5C 24 50 48 8B C6 48 8B 74 24
+
+exit:
+jmp returnhere
+
+"143C6A8AE://全局基址
+jmp newmem
+NOP
+NOP
+NOP
+NOP
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+
+dealloc(newmem)
+"143C6A8AE://全局基址
+mov rsi,rax
+je 143C6A972//倍攻基址
+</AssemblerScript>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Activate</Action>
+          <Keys>
+            <Key>113</Key>
+          </Keys>
+          <ID>2</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Deactivate</Action>
+          <Keys>
+            <Key>35</Key>
+          </Keys>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1120087119</ID>
+      <Description>"HOME 全屏攻击"</Description>
+      <LastState Activated="1"/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+144AF574A://范围左边
+db #144 #144 #144 #144 #144 #144
+144AF5685://范围右边
+db #144 #144 #144 #144 #144 #144
+144AF58E7://范围上边
+db #144 #144 #144 #144 #144 #144
+144AF581B://范围下边
+db #144 #144 #144 #144 #144 #144
+[DISABLE]
+144AF574A://范围左边
+db #15 #130 #128 #8 #0 #0
+144AF5685://范围右边
+db #15 #130 #69 #9 #0 #0
+144AF58E7://范围上边
+db #15 #130 #227 #6 #0 #0
+144AF581B://范围下边
+db #15 #130 #175 #7 #0 #0
+
+</AssemblerScript>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Activate</Action>
+          <Keys>
+            <Key>36</Key>
+          </Keys>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Toggle Activation</Action>
+          <Keys/>
+          <ID>6</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1120087120</ID>
+      <Description>"波浪 无敌"</Description>
+      <LastState Value="100" Activated="1" RealAddress="BFCB96EC"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1496F0678</Address>
+      <Offsets>
+        <Offset>10CC</Offset>
+      </Offsets>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>192</Key>
+          </Keys>
+          <Value>100</Value>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Activate</Action>
+          <Keys>
+            <Key>192</Key>
+          </Keys>
+          <ID>1</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1120087009</ID>
+      <Description>"波浪 3S"</Description>
+      <LastState Value="59999" Activated="1" RealAddress="81177CD8"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>149441718</Address>
+      <Offsets>
+        <Offset>C98</Offset>
+      </Offsets>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>192</Key>
+          </Keys>
+          <Value>59999</Value>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Activate</Action>
+          <Keys>
+            <Key>192</Key>
+          </Keys>
+          <ID>1</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1120086505</ID>
+      <Description>"V键--自动捡物"</Description>
+      <LastState Value="90 90" RealAddress="143CB4363"/>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>2</ByteLength>
+      <Address>dnf.exe+3CB4363</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>86</Key>
+          </Keys>
+          <Value>90 90</Value>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1120086506</ID>
+          <Description>"拾取范围"</Description>
+          <LastState Value="90 90 90 90 90 90" RealAddress="143CB4230"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>6</ByteLength>
+          <Address>143CB4230</Address>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>86</Key>
+              </Keys>
+              <Value>90 90 90 90 90 90</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1120086509</ID>
+          <Description>"拾取范围"</Description>
+          <LastState Value="90 90 90 90 90 90" RealAddress="143CB41B0"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>6</ByteLength>
+          <Address>143CB41B0</Address>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>86</Key>
+              </Keys>
+              <Value>90 90 90 90 90 90</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1120086508</ID>
+          <Description>"拾取范围"</Description>
+          <LastState Value="90 90 90 90 90 90" RealAddress="143CB42AE"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>6</ByteLength>
+          <Address>143CB42AE</Address>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>86</Key>
+              </Keys>
+              <Value>90 90 90 90 90 90</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1120086507</ID>
+          <Description>"拾取范围"</Description>
+          <LastState Value="90 90 90 90 90 90" RealAddress="143CB432E"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>6</ByteLength>
+          <Address>dnf.exe+3CB432E</Address>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>86</Key>
+              </Keys>
+              <Value>90 90 90 90 90 90</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>CE汇编教学群:563615793</Name>
+      <Address>7ffffffff</Address>
+      <Name>dark_asm_QQ:695975713</Name>
+      <Address>400500</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>"cshell.dll"+5E708</Address>
+      <Comment>19
+</Comment>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>
