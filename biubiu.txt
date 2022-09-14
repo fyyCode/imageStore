@@ -2019,7 +2019,7 @@
 "name": "次元城",
 "url": "https://www.cycdm01.top",
 "User": "空",
-"fenlei": "TV动画$/show/20--------#剧场版$/vodshow/21--------",
+"fenlei": "TV动画$/type/20--------#剧场版$/vodshow/21--------",
 "houzhui": "---.html",
 "shifouercijiequ": "1",
 "jiequqian": "class=\"module-items",
