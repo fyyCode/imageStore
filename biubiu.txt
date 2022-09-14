@@ -2022,7 +2022,7 @@
 "fenlei": "TV动画$/show/20--------#剧场版$/show/21--------",
 "houzhui": "---.html",
 "shifouercijiequ": "1",
-"jiequqian": "class=\"module-items",
+"jiequqian": "<div class=\"module-items",
 "jiequhou": "class=\"fixedGroup",
 "jiequshuzuqian": "<a",
 "jiequshuzuhou": "</a>",
