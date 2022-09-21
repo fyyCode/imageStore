@@ -4,6 +4,7 @@
 "sites": [
 {"key":"csp_CZSPP","name":"🏭厂长资源","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_xbb_akmeiju","name":"🍀爱看美剧","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/fyyCode/imageStore/f5x9q.json"},
+{"key":"csp_QB_17kan","name":"⚽17看球","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://raw.iqiq.io/liu673cn/box/main/sub/ext/17看球.json"},
 
 //
 {"key":"csp","name":"资源列表结束","type":1,"api":"","playUrl":"","searchable":1,"quickSearch":1}
