@@ -1,11 +1,12 @@
 {
 "wallpaper":"https://picsum.photos/1280/720/?blur=10",
-"spider":"https://cdn.jsdelivr.net/gh/fyyCode/imageStore/custom_spider.jar;md5;A1C5FE34E5C2E3E9BB50351FEC69EC9D",
+"spider":"https://cdn.jsdelivr.net/gh/fyyCode/imageStore/custom_spider.jar;md5;0bcd33bc427bad0d5efd6bbd03724352",
 "sites": [
 {"key":"csp_CZSPP","name":"🏭厂长资源","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_xbb_akmeiju","name":"🍀爱看美剧","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/fyyCode/imageStore/f5x9q.json"},
 {"key":"csp_QB_17kan","name":"⚽17看球","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://raw.iqiq.io/liu673cn/box/main/sub/ext/17看球.json"},
 {"key":"csp_xml_快播云","name":"🐝快播云","type":1,"api":"https://api.yinwoapi.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1},
+{"key":"csp_JrsLive","name":"🏭Jrs直播","type":3,"api":"csp_JrsLive","searchable":0,"quickSearch":0,"filterable":0},
 //
 {"key":"csp","name":"资源列表结束","type":1,"api":"","playUrl":"","searchable":1,"quickSearch":1}
 ],
