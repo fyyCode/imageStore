@@ -1,6 +1,6 @@
 {
 "wallpaper":"https://picsum.photos/1280/720/?blur=10",
-"spider":"https://ghproxy.com/https://raw.githubusercontent.com/fyyCode/imageStore/main/custom_spider.jar;md5;f5804ca548dd5e12eb51eebcb9f7db5b",
+"spider":"https://ghproxy.com/https://raw.githubusercontent.com/fyyCode/imageStore/main/custom_spider.jar;md5;6c9b7043fdcd4d545be5f75c52ae568a",
 "sites": [
 {"key":"csp_CZSPP","name":"🏭厂长资源","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_xbb_akmeiju","name":"🍀爱看美剧","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/fyyCode/imageStore/f5x9q.json"},
