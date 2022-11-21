@@ -1,3 +1,4 @@
+⚛️央视综合,#genre#
 CCTV4 ,http://red.ipfox.org:8080/osama2022/osama2023/49212
 CCTV5 ,http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227170/index.m3u8?servicetype=1?世界杯
 CCTV5 ,http://39.135.138.59:18890/PLTV/88888910/224/3221225633/index.m3u8?世界杯WorldCup
