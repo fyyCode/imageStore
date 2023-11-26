@@ -2,7 +2,7 @@
     "lives": [
       {
         "name": "M3U",
-        "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/fyyCode/imageStore/main/IPTV%E4%B8%87%E6%BA%90-%E4%B8%8B%E5%8D%88%2045728.m3u"
       },
       {
         "name": "TXT",
