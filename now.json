@@ -1,19 +1,26 @@
 {
     "lives": [
-      {
-        "name": "M3U",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/fyyCode/imageStore/main/IPTV%E4%B8%87%E6%BA%90-%E4%B8%8B%E5%8D%88%2045728.m3u"
-      },
-      {
-        "name": "TXT",
-        "url": "https://xhdwc.tk/tvlive.txt",
-        "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
-        "logo":"https://epg.112114.xyz/logo/{name}.png"
-    },
-      {
-        "name": "Proxy",
-        "type": 2,
-        "url": "proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpL1lvdXJzbWlsZTcvVFZCb3gvcmF3L2JyYW5jaC9tYXN0ZXIvbGl2ZS50eHQ="
+     {
+      "name": "TXT",
+      "url": "https://fyyhub.github.io/ysp.txt",
+      "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo":"https://epg.112114.xyz/logo/{name}.png"
+     },{
+      "name": "TXT",
+      "url": "https://fyyhub.github.io/migu.txt",
+      "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo":"https://epg.112114.xyz/logo/{name}.png"
+     },
+     {
+      "name": "hotel",
+      "url": "https://fyyhub.github.io/hotel1.txt",
+      "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo":"https://epg.112114.xyz/logo/{name}.png"
+     },{
+      "name": "TXT",
+      "url": "https://xhdwc.tk/tvlive.txt",
+      "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo":"https://epg.112114.xyz/logo/{name}.png"
       }
     ]
   }
