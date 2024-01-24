@@ -1,13 +1,18 @@
 {
     "lives": [
      {
-      "name": "TXT",
-      "url": "https://fyyhub.github.io/ysp.txt",
+      "name": "fanmm",
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+     },
+     {
+      "name": "migu",
+      "url": "https://fyyhub.github.io/migu.txt",
       "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
       "logo":"https://epg.112114.xyz/logo/{name}.png"
-     },{
-      "name": "TXT",
-      "url": "https://fyyhub.github.io/migu.txt",
+     },
+    {
+      "name": "ysp",
+      "url": "https://fyyhub.github.io/ysp.txt",
       "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
       "logo":"https://epg.112114.xyz/logo/{name}.png"
      },
@@ -17,7 +22,7 @@
       "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
       "logo":"https://epg.112114.xyz/logo/{name}.png"
      },{
-      "name": "TXT",
+      "name": "tvlive",
       "url": "https://xhdwc.tk/tvlive.txt",
       "epg":"http://diyp.112114.xyz/?ch={name}&date={date}",
       "logo":"https://epg.112114.xyz/logo/{name}.png"
